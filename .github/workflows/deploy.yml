@@ -25,7 +25,7 @@ jobs:
         run: yarn install
 
       - name: Create .env.production
-        run: echo "NEXT_PUBLIC_PRIVY_APP_ID=${{ secrets.NEXT_PUBLIC_PRIVY_APP_ID }}" > .env.production
+        run: echo "NEXT_PUBLIC_PRIVY_APP_ID=${{ secrets.NEXT_PUBLIC_PRIVY_APP_ID }}" > .env.local
 
       - name: Build static site
         run: yarn build
