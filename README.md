@@ -51,3 +51,5 @@ In your project directory, run `yarn dev`. You can now visit http://localhost:30
 - OAuth methods can be enabled on the dashboard [here](https://dashboard.privy.io/apps?page=login-methods&logins=socials)
 
 **Check out [our docs](https://docs.privy.io/) for more guidance around using Privy in your app!**
+
+deploy
